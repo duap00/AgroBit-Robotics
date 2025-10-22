@@ -1,9 +1,9 @@
-# 🌱 Robotani-DevOps
+# 🌱 
 
 Robotani-DevOps is a smart farming project that integrates **IoT devices**, **Odoo ERP**, and **cloud-based DevOps automation**.  
 This repo showcases how to use **Docker, AWS, and CI/CD pipelines** to deploy, monitor, and scale smart farming operations.
 
----
+---AgroBit
 
 ## 🚀 Features
 - IoT integration (pH, temperature, TUYA smart sensors)
@@ -15,7 +15,6 @@ This repo showcases how to use **Docker, AWS, and CI/CD pipelines** to deploy, m
 ---
 
 ## 📐 Architecture
-![Architecture](docs/architecture.png)
 
 Flow:
 1. IoT sensors → API → Odoo ERP (Dockerized)
@@ -35,7 +34,7 @@ Flow:
 ---
 
 ## 🔄 CI/CD Workflow
-![Pipeline](docs/pipeline.png)
+
 
 1. Developer pushes code → GitHub  
 2. GitHub Actions builds Docker images  
